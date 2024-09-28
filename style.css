@@ -1,0 +1,103 @@
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: navy;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body{
+	background-color: rbga(0,0,0,0.5);
+}
+
+header div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: wrap;
+	padding: 20px 5px;
+	background-color: rgba(0,0,0,0.5)
+}
+header img{
+	width: 150px;
+	margin: 0;
+}
+
+nav{
+	padding: 1% 25%;
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+}
+
+nav a{
+	text-size: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #e8bd48
+}
+
+.pic1{
+	border: 5px solid #21ed98;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.text1{
+	font-family: Arial;
+	font-size: 30px;
+	display: flex;
+	weight: 45px;
+	flex: wrap;
+	wrap: wrap;
+}
+
+.pic2{
+	border: 5px solid #21ed98;
+	border-radius: 10px;
+	margin: 20px;
+	float: right;
+}
+
+.text2{
+	font-family: Arial;
+	font-size: 30px;
+	float: right;
+}
+
+footer{
+	background-color: blue;
+	float: left;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.text3{
+	float: left;
+	font-family: Arial;
+	font-size: 23px;
+}
+
